@@ -19,13 +19,12 @@
             <li>
               <a href="mailto:{{ site.email }}">
                 {{ site.email }}
-                {% include svg-icons.html %}
               </a>
             </li>
           {%- endif -%}
         </ul>
       </div>
-
+      {% include svg-icons.html %}
 
       <div class="col-sm text-right">
         <p>{{- site.description | escape -}}</p> 
