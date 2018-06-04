@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Blog 
 ---
 
@@ -17,3 +17,4 @@ title: Blog
     </article>
   {% endfor %}
 </div>
+
