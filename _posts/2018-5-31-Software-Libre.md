@@ -15,7 +15,7 @@ Es aqui donde es mejor elegir software libre, en vez de privativo o bien gratuit
 - Genera confianza entre los usuarios
 - Disminuye los costes en uso de aplicaciones 
 
-##El software libre se basa en cuatro libertades y estas son:
+## El software libre se basa en cuatro libertades y estas son:
 
 1. Libertad de usar el programa, con cualquier propósito.
 2. Libertad de acceso al código fuente del programa.
