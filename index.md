@@ -13,7 +13,7 @@ title: Blog
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
+      <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}{{ post.url }}" role="button">Leer mas</a>
     </article>
   {% endfor %}
 </div>
