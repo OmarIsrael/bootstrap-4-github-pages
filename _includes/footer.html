@@ -1,39 +1,37 @@
-<div class="py-5 border-top">
-  <div class="container">
-
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
-    <div class="row">
-
-      <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
-      </div>
-
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
-        </p>
-      </div>
-
-    </div>
-
-  </div>
+<div class="footer-main-div">
+ 
+<div class="footer-social-icons">
+  <ul>
+    <li><a href="{{ site.facebook }}" target="blank"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="{{ site.twitter }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="#" target="blank"><i class="fa fa-google-plus"></i></a></li>
+    <li><a href="#" target="blank"><i class="fa fa-youtube"></i></a></li>
+  </ul>
+</div>  
+ 
+<div class="footer-menu-one">
+  <ul>
+    <li><a href="#">Home</a></li>
+           <li><a href="#">About us</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Products</a></li>
+           <li><a href="#">Contact us</a></li>
+  </ul>
+</div>
+ 
+<div class="footer-menu-two">
+  <ul>
+    <li><a href="#">Blog</a></li>
+           <li><a href="#">News</a></li>
+           <li><a href="#">Gallery</a></li>
+           <li><a href="#">Media</a></li>
+           
+  </ul>
+</div>
+ 
+ 
+</div>
+ 
+<div class="footer-bottom">
+  <p>Design by: <a href="#">Learning Tutorial Point</a></p>
 </div>
