@@ -14,7 +14,7 @@ comments: true
         {{ post.excerpt }}
       </div>
 
-      <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}{{ post.url }}" role="button">Leer mas</a>
+      <a class="btn btn-primary btn-sm" href="{{ site.baseurl }}{{ post.url }}" role="button">Leer mas</a>
     </article>
   {% endfor %}
 </div>
