@@ -2,8 +2,7 @@
 <div class="py-5 border-top">
   <div class="container">
 
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
+    
     <div class="row">
 
       <div class="col-sm">
@@ -20,6 +19,13 @@
               <a href="mailto:{{ site.email }}">
                 {{ site.email }}
               </a>
+              {% if site.twitter_username %}
+              <li>
+                 <a href="https://www.twitter.com/{{ site.twitter_username }}">
+                   <i class="svg-icon twitter"></i>
+                   {{ site.twitter_username }}
+                 </a>
+              </li>    
             </li>
           {%- endif -%}
         </ul>
