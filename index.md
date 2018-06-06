@@ -13,8 +13,9 @@ comments: true
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
+      
       <a class="btn btn-primary btn-sm" href="{{ site.baseurl }}{{ post.url }}" role="button">Leer mas</a>
+      <br>
     </article>
   {% endfor %}
 </div>
