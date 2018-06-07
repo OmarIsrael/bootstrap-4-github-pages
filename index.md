@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-comments: true 
+ 
 ---
 
 <div class="posts">
